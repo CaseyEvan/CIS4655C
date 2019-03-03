@@ -1,0 +1,51 @@
+body
+{
+
+  background-color: #f9f9f9;
+}
+#row1
+{
+  padding-bottom: 50px;
+}
+#pills
+{
+  padding-right: 200px;
+}
+#row3
+{
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+}
+#content1
+{
+  padding-left: 100px;
+}
+#footer
+{
+  padding-top: 100px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
