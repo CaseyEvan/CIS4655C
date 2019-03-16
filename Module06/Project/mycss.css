@@ -1,0 +1,61 @@
+#top
+{
+  padding-bottom: 10px;
+}
+
+
+
+#topic
+{
+  padding-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+
+
+}
+
+#topic1
+{
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#abouttxt
+{
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%
+}
+#about
+{
+  padding-left: 25%;
+}
+
+
+p
+{
+  padding-top: 20px;
+}
+body
+{
+
+  background-color: #f9f9f9;
+}
+Push.create('Hi there!', {
+    body: 'This is a notification.',
+    icon: 'icon.png',
+    timeout: 8000,               // Timeout before notification closes automatically.
+    vibrate: [100, 100, 100],    // An array of vibration pulses for mobile devices.
+    onClick: function() {
+        // Callback for when the notification is clicked.
+        console.log(this);
+    }
+});
